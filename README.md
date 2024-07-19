@@ -1,0 +1,1 @@
+Projeto de um teclado virtual para pessoas que precisam de acessibilidade.

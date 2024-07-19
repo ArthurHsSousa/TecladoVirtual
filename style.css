@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+}
+
+body{
+    background-color:azure;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerTitle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 700px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-family: poppins;
+    font-size: 30px;
+    color: darkseagreen;
+}
+
+.containerTextArea{
+    background-color: aqua;
+    width: 650px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.textArea{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    border-color: darkseagreen;
+    border-width: 2px;
+    font-size: 25px;
+    font-family: poppins;
+    line-height: 28px;
+}
+
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn, .btnDel, .btnShift, .btnSpace{
+    width: 30px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 3px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  darkolivegreen;
+    background-color:darkseagreen;
+    color: azure;
+    font-family: poppins;
+    font-weight: bold;
+
+}
+
+.btnDel, .btnShift{
+    width: 60px;
+}
+
+.btnSpace{
+    width: 200px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
